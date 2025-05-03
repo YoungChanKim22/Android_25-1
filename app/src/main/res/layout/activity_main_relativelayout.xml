@@ -38,6 +38,7 @@
         android:id="@+id/button_login"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonColor"
         android:text="로그인"
         android:layout_below="@id/edit_password"
         android:layout_centerHorizontal="true"
@@ -95,4 +96,5 @@
         android:layout_toRightOf="@id/textview_find_password"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="16dp" />
+    </RelativeLayout>
 </RelativeLayout>
